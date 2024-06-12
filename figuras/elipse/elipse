@@ -1,0 +1,13 @@
+import math
+
+def Elipse():
+    a = float(input("Ingrese el valor del semieje mayor (a): "))
+    b = float(input("Ingrese el valor del semieje menor (b): "))
+
+    area = math.pi * a * b
+    perimetro = math.pi * (3 * (a + b) - math.sqrt((3 * a + b) * (a + 3 * b)))
+
+    print("El área de la elipse es:", area)
+    print("El perímetro aproximado es:", perimetro)
+
+Elipse()

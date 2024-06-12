@@ -1,0 +1,7 @@
+import math
+diametro = float(input("Ingresa el diámetro del círculo: "))
+radio = diametro / 2
+area = math.pi * (radio ** 2)
+perimetro = math.pi * diametro
+print("El área es de:", area)
+print("El perímetro es de:", perimetro)

@@ -1,0 +1,12 @@
+def tacos():
+
+    taquerias = int(input("Número de taquerías en CDMX: "))
+    total_tacos = 0
+    
+    for i in range(1, taquerias + 1):
+        tacos_x_dia = int(input("Ingrese la cantidad de tacos vendidos por día por la taquería {}: ".format(i)))
+        total_tacos += tacos_x_dia
+   
+    print("Tacos vendidos en CDMX por día es:", total_tacos)
+
+tacos()
